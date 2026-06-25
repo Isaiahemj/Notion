@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isaiah Johnson — Notion People Analytics & Ops</title>
+  <meta name="description" content="Candidate dashboard for Isaiah Johnson applying to Notion's People Analytics & Operations rotational program." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="avatar">IJ</div>
+      <div class="header-text">
+        <h1 class="name">Isaiah Johnson</h1>
+        <p class="role">Applying: People Analytics &amp; Operations Rotational &mdash; Notion</p>
+        <div class="contact">
+          <a href="mailto:Isaiah.johnson4@morehouse.edu">
+            <i class="ti ti-mail" aria-hidden="true"></i>
+            Isaiah.johnson4@morehouse.edu
+          </a>
+          <a href="https://linkedin.com/in/isaiah-johnson-05b281259" target="_blank" rel="noopener">
+            <i class="ti ti-brand-linkedin" aria-hidden="true"></i>
+            LinkedIn
+          </a>
+          <span>
+            <i class="ti ti-phone" aria-hidden="true"></i>
+            (540) 207-8567
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <hr />
+
+    <!-- Metric cards -->
+    <section class="metrics" aria-label="Key stats">
+      <div class="metric">
+        <div class="metric-label">GPA</div>
+        <div class="metric-val">3.79</div>
+        <div class="metric-sub">Morehouse College</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Internships</div>
+        <div class="metric-val">4</div>
+        <div class="metric-sub">Microsoft, FICO, tastytrade, Project Destined</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Competitions</div>
+        <div class="metric-val">2&times;</div>
+        <div class="metric-sub">2nd place, both</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Next step</div>
+        <div class="metric-val">MSBA</div>
+        <div class="metric-sub">Babson, Fall 2026</div>
+      </div>
+    </section>
+
+    <!-- Skills + Experience -->
+    <div class="two-col">
+
+      <!-- Skills -->
+      <div class="card">
+        <p class="section-label">Skills</p>
+        <div class="skill-grid" id="skill-grid">
+          <!-- Rendered by js/dashboard.js -->
+        </div>
+      </div>
+
+      <!-- Experience timeline -->
+      <div class="card">
+        <p class="section-label">Experience timeline</p>
+        <div id="exp-list">
+          <!-- Rendered by js/dashboard.js -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- JD fit + Wins -->
+    <div class="two-col">
+
+      <!-- JD fit check -->
+      <div class="card">
+        <p class="section-label">JD fit check</p>
+        <div class="match-list" id="fit-list">
+          <!-- Rendered by js/dashboard.js -->
+        </div>
+      </div>
+
+      <!-- Wins -->
+      <div class="card">
+        <p class="section-label">Wins</p>
+        <div id="wins-list">
+          <!-- Rendered by js/dashboard.js -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Quote -->
+    <div class="full-card">
+      <p class="section-label">In my own words</p>
+      <p class="quote-text">
+        "I don't wait for broken processes to become someone else's problem. At Microsoft I saw
+        repetitive Co-Op workflows no one had touched and automated 60% of them. At FICO I built
+        an LLM chatbot from scratch because I knew it would be faster than the alternative. I use
+        Claude, Python, and SQL every day &mdash; not because I have to, but because they let me
+        think better. I build in Notion. I'd be joining a team doing exactly that at scale."
+      </p>
+    </div>
+
+    <!-- Skill tags -->
+    <div class="tag-row" id="tag-row">
+      <!-- Rendered by js/dashboard.js -->
+    </div>
+
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
